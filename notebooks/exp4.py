@@ -122,7 +122,8 @@ with mlflow.start_run(run_name="Random Forest Tuning") as parent_run:
 
 
     """
-    Best parameters found:  {'n_estimators': 1000, 'max_depth': None}
+    Best model : random forest classifier
+    Best hyperparameters found:  {'n_estimators': 1000, 'max_depth': None}
     Accuracy:  0.6905487804878049
     Precision:  0.664
     Recall:  0.3401639344262295
